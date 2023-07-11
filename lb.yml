@@ -3,5 +3,5 @@
   tasks:
        - name: Copy file source to destination
          copy:
-              src: /etc/fstab
+              content: hellob
               dest: /var/tmp/fstab
